@@ -7,6 +7,6 @@ TEST_CASE("Sums are computed", "[sum]")
 {
     REQUIRE(Sum({1, 2, 9}) == 12);
     REQUIRE(Sum({1, 2}) == 3);
-    REQUIRE(Sum({1, 9}) == 12);
+    REQUIRE(Sum({1, 9}) == 10);
     REQUIRE(Sum({1, 4, 5}) == 10);
 }
